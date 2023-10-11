@@ -1,0 +1,124 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    margin: 40px;
+    background-color: #2F2E41;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 1300px;
+    height: auto;
+    margin-bottom: 170px;
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+}
+
+section{
+    padding: 30px;
+    justify-content: space-between;
+    height: auto;
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 210px;
+}
+
+.texto{
+    width: 700px;
+    text-align: center;
+    
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.barra{
+    background-color: #00BFA6;
+    height: 1px;
+    width: 700px;
+}
+
+h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: JetBrains Mono;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+span{
+    color: #00BFA6;
+    text-align: center;
+    font-family: JetBrains Mono;
+    font-size: 36px;
+    font-style: bold;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+p{
+    color: #C2C2C2;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+}
+
+strong{
+    color: #C2C2C2;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+
+strong:nth-child(4){
+    color: #00BFA6;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+a {
+    color: #FFF;
+    text-align: center;
+    font-family: JetBrains Mono;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+}
+
+.cadeado{
+    padding: 8px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
